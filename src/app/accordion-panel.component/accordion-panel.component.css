@@ -1,0 +1,22 @@
+.panel {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .panel-header {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f1f1f1;
+  }
+  
+  .panel-title {
+    font-weight: bold;
+  }
+  
+  .panel-description {
+    font-size: 0.9em;
+    color: #666;
+  }
+  
+  .panel-content {
+    padding: 10px;
+  }

@@ -1,0 +1,10 @@
+<div class="panel">
+    <div class="panel-header" (click)="togglePanel()">
+      <div class="panel-title">{{ title }}</div>
+      <div class="panel-description" *NgIf="description">{{ description }}</div>
+    </div>
+    <div class="panel-content" *NgIf="isOpen">
+      <ng-content></ng-content>
+    </div>
+  </div>
+  
